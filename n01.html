@@ -28,9 +28,20 @@
             width: calc(min(100vw, 100vh) * 0.75);
             height: calc(min(100vw, 100vh) * 0.75);
             border: 3px solid rgb(243,91,52);
+            clip-path: polygon(
+                5% 0%, 
+                95% 0%, 
+                100% 5%, 
+                100% 95%, 
+                95% 100%, 
+                5% 100%, 
+                0% 95%, 
+                0% 5%
+            );
             position: relative;
             z-index: 2;
             pointer-events: auto;
+            overflow: hidden;
         }
     </style>
 </head>
