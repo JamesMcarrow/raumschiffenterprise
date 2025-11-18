@@ -452,16 +452,9 @@
 			}
 		},
 		{
-			"alphaMode":"BLEND",
 			"doubleSided":true,
 			"name":"sklo_mlecne",
 			"pbrMetallicRoughness":{
-				"baseColorFactor":[
-					1,
-					1,
-					1,
-					0.8999999761581421
-				],
 				"baseColorTexture":{
 					"index":4
 				},
