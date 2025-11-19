@@ -6,8 +6,6 @@
 	"extensionsUsed":[
 		"KHR_draco_mesh_compression",
 		"KHR_materials_clearcoat",
-		"KHR_materials_transmission",
-		"KHR_materials_ior",
 		"KHR_texture_transform"
 	],
 	"extensionsRequired":[
@@ -932,12 +930,6 @@
 			"extensions":{
 				"KHR_materials_clearcoat":{
 					"clearcoatFactor":0.6000000238418579
-				},
-				"KHR_materials_transmission":{
-					"transmissionFactor":0.8999999761581421
-				},
-				"KHR_materials_ior":{
-					"ior":1.4500000476837158
 				}
 			},
 			"name":"sklo_mlecne",
@@ -3758,7 +3750,7 @@
 	"bufferViews":[
 		{
 			"buffer":0,
-			"byteLength":38965,
+			"byteLength":38966,
 			"byteOffset":0
 		},
 		{
@@ -3853,173 +3845,173 @@
 		},
 		{
 			"buffer":0,
-			"byteLength":474448,
+			"byteLength":474450,
 			"byteOffset":881752
 		},
 		{
 			"buffer":0,
 			"byteLength":29982,
-			"byteOffset":1356200
+			"byteOffset":1356204
 		},
 		{
 			"buffer":0,
 			"byteLength":29988,
-			"byteOffset":1386184
+			"byteOffset":1386188
 		},
 		{
 			"buffer":0,
 			"byteLength":29997,
-			"byteOffset":1416172
+			"byteOffset":1416176
 		},
 		{
 			"buffer":0,
-			"byteLength":30000,
-			"byteOffset":1446172
+			"byteLength":29999,
+			"byteOffset":1446176
 		},
 		{
 			"buffer":0,
-			"byteLength":30006,
-			"byteOffset":1476172
+			"byteLength":30008,
+			"byteOffset":1476176
 		},
 		{
 			"buffer":0,
 			"byteLength":30532,
-			"byteOffset":1506180
+			"byteOffset":1506184
 		},
 		{
 			"buffer":0,
 			"byteLength":30547,
-			"byteOffset":1536712
+			"byteOffset":1536716
 		},
 		{
 			"buffer":0,
 			"byteLength":30568,
-			"byteOffset":1567260
+			"byteOffset":1567264
 		},
 		{
 			"buffer":0,
 			"byteLength":30610,
-			"byteOffset":1597828
+			"byteOffset":1597832
 		},
 		{
 			"buffer":0,
 			"byteLength":30587,
-			"byteOffset":1628440
+			"byteOffset":1628444
 		},
 		{
 			"buffer":0,
-			"byteLength":27787,
-			"byteOffset":1659028
+			"byteLength":27788,
+			"byteOffset":1659032
 		},
 		{
 			"buffer":0,
 			"byteLength":27780,
-			"byteOffset":1686816
+			"byteOffset":1686820
 		},
 		{
 			"buffer":0,
 			"byteLength":27783,
-			"byteOffset":1714596
+			"byteOffset":1714600
 		},
 		{
 			"buffer":0,
 			"byteLength":27794,
-			"byteOffset":1742380
+			"byteOffset":1742384
 		},
 		{
 			"buffer":0,
 			"byteLength":27787,
-			"byteOffset":1770176
+			"byteOffset":1770180
 		},
 		{
 			"buffer":0,
 			"byteLength":30642,
-			"byteOffset":1797964
+			"byteOffset":1797968
 		},
 		{
 			"buffer":0,
 			"byteLength":30540,
-			"byteOffset":1828608
+			"byteOffset":1828612
 		},
 		{
 			"buffer":0,
 			"byteLength":30558,
-			"byteOffset":1859148
+			"byteOffset":1859152
 		},
 		{
 			"buffer":0,
 			"byteLength":30574,
-			"byteOffset":1889708
+			"byteOffset":1889712
 		},
 		{
 			"buffer":0,
 			"byteLength":30578,
-			"byteOffset":1920284
+			"byteOffset":1920288
 		},
 		{
 			"buffer":0,
 			"byteLength":31933,
-			"byteOffset":1950864
+			"byteOffset":1950868
 		},
 		{
 			"buffer":0,
 			"byteLength":31937,
-			"byteOffset":1982800
+			"byteOffset":1982804
 		},
 		{
 			"buffer":0,
 			"byteLength":31938,
-			"byteOffset":2014740
+			"byteOffset":2014744
 		},
 		{
 			"buffer":0,
 			"byteLength":31943,
-			"byteOffset":2046680
+			"byteOffset":2046684
 		},
 		{
 			"buffer":0,
 			"byteLength":31966,
-			"byteOffset":2078624
+			"byteOffset":2078628
 		},
 		{
 			"buffer":0,
 			"byteLength":29232,
-			"byteOffset":2110592
+			"byteOffset":2110596
 		},
 		{
 			"buffer":0,
 			"byteLength":29273,
-			"byteOffset":2139824
+			"byteOffset":2139828
 		},
 		{
 			"buffer":0,
 			"byteLength":29282,
-			"byteOffset":2169100
+			"byteOffset":2169104
 		},
 		{
 			"buffer":0,
 			"byteLength":29311,
-			"byteOffset":2198384
+			"byteOffset":2198388
 		},
 		{
 			"buffer":0,
 			"byteLength":29311,
-			"byteOffset":2227696
+			"byteOffset":2227700
 		},
 		{
 			"buffer":0,
 			"byteLength":40118,
-			"byteOffset":2257008
+			"byteOffset":2257012
 		},
 		{
 			"buffer":0,
 			"byteLength":55413,
-			"byteOffset":2297128
+			"byteOffset":2297132
 		},
 		{
 			"buffer":0,
 			"byteLength":55674,
-			"byteOffset":2352544
+			"byteOffset":2352548
 		}
 	],
 	"samplers":[
@@ -4030,7 +4022,7 @@
 	],
 	"buffers":[
 		{
-			"byteLength":2408220,
+			"byteLength":2408224,
 			"uri":"lampa_02.bin"
 		}
 	]
