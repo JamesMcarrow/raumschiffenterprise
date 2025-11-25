@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Topol';
+    src: url('TopolRegular.ttf') format('truetype');
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Topol', Arial, sans-serif;
+    position: relative;
+    padding-top: 10px;
+}
+.title {
+    font-size: 48px;
+    color: rgb(243,91,52);
+    font-family: 'Topol', Arial, sans-serif;
+    margin: 0 0 10px 0;
+    text-align: center;
+    line-height: 1.2;
+}
+.links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.links li {
+    margin: 10px 0;
+}
+.links li.separator {
+    margin-bottom: 34px;
+}
+.links a {
+    text-decoration: none;
+    color: rgb(243,91,52);
+    font-size: 24px;
+}
+.links a:hover {
+    color: rgb(200,70,40);
+}

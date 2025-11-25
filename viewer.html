@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Model Viewer</title>
+    <link rel="stylesheet" href="viewer.css">
+</head>
+
+<body>
+    <a href="index.html" class="back-area"></a>
+    <div class="loading" id="loading"></div>
+    <div class="viewer-wrapper">
+        <model-viewer id="model-viewer" 
+            src="" 
+            alt="3D Model"
+            camera-controls
+            shadow-intensity="1"
+            exposure="1">
+        </model-viewer>
+    </div>
+
+    <!-- Google Model Viewer Script -->
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script src="data.js"></script>
+    <script>
+        // Get the item ID from URL parameter
+        const urlParams = new URLSearchParams(window.location.search);
+        const itemId = urlParams.get('item');
+
+        if (catalogData && Array.isArray(catalogData.items)) {
+            const item = catalogData.items.find(entry => entry.title === itemId);
+            if (item) {
+                document.title = item.title;
+                document.getElementById('model-viewer').src = item.model;
+                document.getElementById('loading').style.display = 'none';
+            } else {
+                document.getElementById('model-viewer').src = null
+                document.getElementById('loading').textContent = 'Tenhle model zatím neexistuje :(';
+            }
+        } else {
+            document.getElementById('loading').textContent = 'Catalog data not available';
+        }
+    </script>
+</body>
+</html>
