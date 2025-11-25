@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>3D Model Viewer</title>
+    <link rel="icon" type="image/png" href="r_kat_icon.png">
     <link rel="stylesheet" href="viewer.css">
 </head>
 
@@ -36,7 +37,7 @@
                 document.getElementById('loading').style.display = 'none';
             } else {
                 document.getElementById('model-viewer').src = null
-                document.getElementById('loading').textContent = 'Tenhle model zatím neexistuje :(';
+                document.getElementById('loading').textContent = 'Tenhle objekt zatím neexistuje :(';
             }
         } else {
             document.getElementById('loading').textContent = 'Catalog data not available';

@@ -1,73 +1,65 @@
-# Sirv 3D Viewer - Local GLB Example
+# Raumschiff Katalog – 3D Model Viewer
 
-Minimal example of using Sirv Media Viewer with a local GLB file.
+A simple, local-first 3D model catalog built with the Google Model Viewer. Shows a list of items and lets you view each 3D model on its own page.
 
 ## File Structure
 ```
-_atrn_BERLIN/
-├── web/
-│   ├── index.html      (this example)
-│   ├── server.py       (local server script)
-│   └── README.md
-└── nabytek/
-    └── zidle_01.glb    (your 3D model)
+web/
+├── index.html          # Main catalog page
+├── viewer.html          # Individual 3D model viewer page
+├── index.css            # Styles for the catalog
+├── viewer.css           # Styles for the viewer
+├── data.js              # Catalog data (no remote JSON loading)
+├── r_kat_icon.png       # Favicon
+├── TopolRegular.ttf     # Custom font
+├── server.py            # Local server script
+└── README.md            # This file
+models/
+├── zidle_01/
+│   ├── zidle_01.gltf
+│   └── textures/
+├── stul_01/
+│   ├── stul_01.gltf
+│   └── textures/
+└── lampa_01/
+    ├── lampa_01.gltf
+    └── textures/
 ```
 
 ## Usage
 
-### Option 1: Using Python HTTP Server (Recommended)
+### Python HTTP Server
 
-1. Make sure you have Python installed
+1. Make sure you have Python installed.
 2. Run the server:
    ```bash
    python server.py
    ```
-3. Open your browser and navigate to:
+3. Open your browser to:
    ```
-   http://localhost:8000/web/index.html
+   http://localhost:8000/index.html
    ```
 
-### Option 2: Using Node.js http-server
+## How It Works
 
-1. Install http-server globally (if not already installed):
-   ```bash
-   npm install -g http-server
-   ```
-2. Navigate to the parent directory (`_atrn_BERLIN`):
-   ```bash
-   cd ..
-   ```
-3. Start the server:
-   ```bash
-   http-server -p 8000
-   ```
-4. Open: `http://localhost:8000/web/index.html`
-
-### Option 3: Using VS Code Live Server
-
-If you're using VS Code, you can use the Live Server extension:
-1. Install the "Live Server" extension
-2. Right-click on `index.html` and select "Open with Live Server"
-
-## Notes
-
-- The GLB file path in `index.html` is set to `../nabytek/zidle_01.glb`
-- Sirv Media Viewer requires files to be served via HTTP (not `file://` protocol)
-- The viewer supports various options - see the [Sirv documentation](https://sirv.com/help/articles/3d-model/) for customization
+- **index.html** shows a list of items (N01–N06, I01–I06, U01–U06).
+- Clicking an item opens `viewer.html?item=XYZ`.
+- `viewer.html` reads the catalog from `data.js` (no remote JSON fetching).
+- If the item exists and has a model, it loads the 3D model.
+- If the item isn’t found, it shows: “Tenhle objekt zatím neexistuje :(” in white Topol font.
+- Both pages use `r_kat_icon.png` as the favicon.
 
 ## Customization
 
-You can add options to the 3D viewer by modifying the `data-options` attribute:
+- **Add/remove items**: Edit `data.js`.
+- **Update styles**: Edit `index.css` (catalog) or `viewer.css` (viewer).
+- **Replace models**: Update paths in `data.js` and place `.gltf` files under `models/`.
 
-```html
-<div data-src="../nabytek/zidle_01.glb" 
-     data-options="autorotate.enable:true; autorotate.speed:15; zoom:true"></div>
-```
+## Notes
 
-Available options include:
-- `autorotate.enable:true` - Enable auto-rotation
-- `autorotate.speed:15` - Rotation speed (degrees per second)
-- `zoom:true` - Enable zoom
-- `animation.autoplay:true` - Auto-play animations if present
-- And many more (see Sirv documentation)
+- Uses Google Model Viewer (`<model-viewer>`).
+- No external fetching—everything is local.
+- Font: Topol (custom TTF). Fallback to Arial.
+- Viewer frame: orange, clipped corners.
+- “Item not found” text: white, Topol, 24px.
 
