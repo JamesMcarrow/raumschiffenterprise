@@ -1,6 +1,9 @@
 const catalogData = {
   items: [
     { title: "N01", model: "models/zidle_01/zidle_01.gltf" },
+    { title: "N02", model: "models/zidle_02/zidle_02.gltf" },
+    { title: "N03", model: "models/zidle_03/zidle_03.gltf" },
+    { title: "N04", model: "models/kreslo_01/kreslo_01.gltf" },
     { title: "N05", model: "models/stul_01/stul_01.gltf" },
     { title: "N06", model: "models/stul_02/stul_02.gltf" },
     { title: "N07", model: "models/stul_03/stul_03.gltf" },
