@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+}
+.title {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    padding: 10px 0;
+}
+.title a {
+    text-decoration: none;
+    color: inherit;
+}
+.title a:hover {
+    color: rgb(200,70,40);
+}
+#canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    cursor: grab;
+}
+#canvas:active {
+    cursor: grabbing;
+}
+
