@@ -207,13 +207,13 @@ function onPointerDown(e)
 
     dragStart.y = location.y/cameraZoom - cameraOffset.y
 
-    // Start hold timer for 800ms
+    // Start hold timer for 600ms
     holdTimer = setTimeout(() => {
         if (!hasMoved) {
             toggleDrawing()
         }
         holdTimer = null
-    }, 800)
+    }, 600)
 
 }
 
