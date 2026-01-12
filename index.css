@@ -33,7 +33,7 @@ body {
     padding: 0;
     margin: 0;
     text-align: center;
-    padding-top: 80px; /* Add padding to prevent overlap with title */
+    padding-top: 120px; /* Add padding to prevent overlap with title */
     width: 100%;
 }
 .links li {
