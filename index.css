@@ -32,13 +32,16 @@ body {
 
 .sanon-gif {
     position: fixed;
-    left: 25%;
+    right: 0;  /* Align to the right edge */
+    left: 25%;  /* 25% margin from the left */
     top: 50%;
-    transform: translate(-50%, -50%);
+    transform: translateY(-50%);
     height: auto;
-    max-width: 75%;
+    width: 75%;  /* Take up remaining width */
+    max-width: none;  /* Remove max-width constraint */
     z-index: 1;
     pointer-events: none;
+    object-fit: contain;  /* Maintain aspect ratio */
 }
 .links {
     list-style: none;
