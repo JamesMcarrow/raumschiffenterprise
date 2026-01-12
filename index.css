@@ -19,14 +19,20 @@ body {
     font-size: 48px;
     color: rgb(243,91,52);
     font-family: 'Topol', Arial, sans-serif;
-    margin: 0 0 10px 0;
+    margin: 0;
     text-align: center;
     line-height: 1.2;
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
 }
 .links {
     list-style: none;
     padding: 0;
     margin: 0;
+    text-align: center;
 }
 .links li {
     margin: 10px 0;
