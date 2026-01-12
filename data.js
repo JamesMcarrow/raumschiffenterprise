@@ -1,9 +1,9 @@
 const catalogData = {
   items: [
-    { title: "FOYER", drawing: "drawings/axo/foyer.jpg" },
-    { title: "KINOSAL", drawing: "drawings/axo/kinosal.jpg" },
-    { title: "SAL", drawing: "drawings/axo/sal.jpg" },
-    { title: "PONORKA", drawing: "drawings/axo/ponorka.jpg" },
+    { title: "FOYER", drawing: "drawings/axo/foyer.gif" },
+    { title: "KINOSAL", drawing: "drawings/axo/kinosal.gif" },
+    { title: "SAL", drawing: "drawings/axo/sal.gif" },
+    { title: "PONORKA", drawing: "drawings/axo/ponorka.gif" },
     { title: "N01", model: "models/zidle_01/zidle_01.gltf" },
     { title: "N02", model: "models/zidle_02/zidle_02.gltf" },
     { title: "N03", model: "models/zidle_03/zidle_03.gltf" },
@@ -21,7 +21,7 @@ const catalogData = {
     { title: "I02", model: "models/lampa_02/lampa_02.gltf" },
     { title: "U01", drawing: "drawings/keramika/ker_pudorys.jpg", drawing_alt: "drawings/keramika/ker_vzory.jpg" },
     { title: "U02", drawing: "drawings/mozaika/mozaika_detail.jpg"},
-    { title: "U03", drawing: "drawings/libbry/ker_pudorys.jpg"},
+    { title: "U03", drawing: "drawings/libbry/libensky_brychtova.jpg"},
     { title: "U04", drawing: "drawings/lustr/lustr_modry.jpg", drawing_alt: "drawings/lustr/lustr_zluty.jpg" },
     { title: "U05", drawing: "drawings/tapiserie/tapiserie_modra.jpg"},
     { title: "U06", drawing: "drawings/janosik/tapiserie_janosik.jpg"},
