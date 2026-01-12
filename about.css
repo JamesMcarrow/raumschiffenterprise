@@ -24,7 +24,23 @@ h2 {
 }
 
 p {
-    color: #666;
+    color: #00000000;
     line-height: 1.6;
     margin: 15px 0;
+}
+
+.logo-container {
+    position: fixed;
+    bottom: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 100%;
+}
+
+.fa-logo {
+    max-height: 100px; /* Adjust this value as needed */
+    width: auto;
+    margin: 0 auto;
+    display: block;
 }
