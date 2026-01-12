@@ -27,6 +27,17 @@ body {
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
+    z-index: 10;
+}
+
+.sanon-gif {
+    position: fixed;
+    left: 25%;
+    top: 50%;
+    transform: translateY(-50%);
+    height: auto;
+    max-width: 75%;
+    z-index: 1;
 }
 .links {
     list-style: none;
