@@ -22,7 +22,7 @@ body {
     margin: 0;
     text-align: center;
     line-height: 1.2;
-    position: absolute;
+    position: fixed;
     top: 2%;
     left: 50%;
     transform: translateX(-50%);
