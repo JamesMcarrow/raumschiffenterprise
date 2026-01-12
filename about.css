@@ -9,18 +9,7 @@ body {
     min-height: 100vh;
 }
 
-.title {
-    margin: 20px 0;
-    text-align: center;
-}
-
-.title a {
-    color: inherit;
-    text-decoration: none;
-    font-size: 24px;
-    font-weight: bold;
-    letter-spacing: 2px;
-}
+/* Title styles are inherited from index.css */
 
 .content {
     max-width: 800px;
