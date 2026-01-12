@@ -39,7 +39,7 @@ p {
 }
 
 .fa-logo {
-    max-height: 100px; /* Adjust this value as needed */
+    max-height: 60px; /* Adjust this value as needed */
     width: auto;
     margin: 0 auto;
     display: block;
