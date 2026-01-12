@@ -9,7 +9,20 @@ body {
     min-height: 100vh;
 }
 
-/* Title styles are inherited from index.css */
+.title {
+    font-size: 48px;
+    color: rgb(243,91,52);
+    font-family: 'Topol', Arial, sans-serif;
+    margin: 0;
+    text-align: center;
+    line-height: 1.2;
+    position: fixed;
+    top: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    z-index: 10;
+}
 
 .content {
     max-width: 800px;
