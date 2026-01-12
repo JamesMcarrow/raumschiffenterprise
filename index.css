@@ -38,7 +38,7 @@ body {
     transform: translateY(-50%);
     height: auto;
     width: 75%;  /* Take up remaining width */
-    max-width: none;  /* Remove max-width constraint */
+    max-width: 1200px;  /* Remove max-width constraint */
     z-index: 1;
     pointer-events: none;
     object-fit: contain;  /* Maintain aspect ratio */
