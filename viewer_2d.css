@@ -5,10 +5,19 @@ body {
     position: relative;
 }
 .title {
+    font-family: 'Topol', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0;
+    text-align: center;
+    line-height: 1.2;
     position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
+    top: 2%;
+    left: 50%;
+    transform: translateX(-50%);
     z-index: 1000;
     padding: 10px 0;
 }
@@ -17,7 +26,7 @@ body {
     color: inherit;
 }
 .title a:hover {
-    color: rgb(200,70,40);
+    color: rgb(243,91,52);
 }
 #canvas {
     position: fixed;

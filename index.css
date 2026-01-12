@@ -33,6 +33,8 @@ body {
     padding: 0;
     margin: 0;
     text-align: center;
+    padding-top: 80px; /* Add padding to prevent overlap with title */
+    width: 100%;
 }
 .links li {
     margin: 10px 0;
@@ -46,5 +48,5 @@ body {
     font-size: 24px;
 }
 .links a:hover {
-    color: rgb(200,70,40);
+    color: rgb(243,91,52);
 }

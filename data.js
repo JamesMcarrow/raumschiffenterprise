@@ -1,9 +1,9 @@
 const catalogData = {
   items: [
-    { title: "FOYER", drawing: "drawings/axo/foyer.gif" },
-    { title: "KINOSAL", drawing: "drawings/axo/kinosal.gif" },
-    { title: "SAL", drawing: "drawings/axo/sal.gif" },
-    { title: "PONORKA", drawing: "drawings/axo/ponorka.gif" },
+    { title: "FOYER", drawing: "drawings/axo/foyer.jpg" },
+    { title: "KINO", drawing: "drawings/axo/kino.jpg" },
+    { title: "SAL", drawing: "drawings/axo/sal.jpg" },
+    { title: "PONORKA", drawing: "drawings/axo/ponorka.jpg" },
     { title: "N01", model: "models/zidle_01/zidle_01.gltf" },
     { title: "N02", model: "models/zidle_02/zidle_02.gltf" },
     { title: "N03", model: "models/zidle_03/zidle_03.gltf" },
