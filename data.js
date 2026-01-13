@@ -19,6 +19,7 @@ const catalogData = {
     { title: "N13", model: "models/stul_06/stul_06.gltf" },
     { title: "I01", model: "models/lampa_01/lampa_01.gltf" },
     { title: "I02", model: "models/lampa_02/lampa_02.gltf" },
+    { title: "I03", model: "models/svetlo_02/svetlo_02.gltf" },
     { title: "U01", drawing: "drawings/keramika/ker_pudorys.jpg", drawing_alt: "drawings/keramika/ker_vzory.jpg" },
     { title: "U02", drawing: "drawings/mozaika/mozaika_detail.jpg"},
     { title: "U03", drawing: "drawings/libbry/libensky_brychtova.jpg"},
