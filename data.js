@@ -23,7 +23,7 @@ const catalogData = {
     { title: "I04", model: "models/svetlo_01/svetlo_01.gltf" },
     { title: "I05", model: "models/panel_01/panel_01.gltf" },
     { title: "U01", drawing: "drawings/keramika/ker_pudorys.jpg", drawing_alt: "drawings/keramika/ker_vzory.jpg" },
-    { title: "U02", drawing: "drawings/mozaika/mozaika_detail.jpg"},
+    { title: "U02", drawing: "drawings/mozaika/mozaika_detail.jpg", drawing_alt: "drawings/mozaika/mozaika.jpg"},
     { title: "U03", drawing: "drawings/libbry/libensky_brychtova.jpg"},
     { title: "U04", drawing: "drawings/lustr/lustr_modry.jpg", drawing_alt: "drawings/lustr/lustr_zluty.jpg" },
     { title: "U05", drawing: "drawings/tapiserie/tapiserie_modra.jpg"},
